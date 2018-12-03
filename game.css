@@ -1,0 +1,79 @@
+.backboard {
+    float: left;
+    width: 33%;
+}
+
+.gameboard {
+    float: left;
+    width: 31%;
+    padding-bottom: 31%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.right {
+    border-right: 8px solid rgba(0, 0, 0, 0.5);
+}
+
+.bottom {
+    border-bottom: 8px solid rgba(0, 0, 0, 0.5);
+}
+
+.circle {
+    background-image: url('circleicon.jpg');
+}
+
+.cross {
+    background-image: url('crossicon.png');
+}
+
+.background {
+    background-color: darkslategray;
+    padding-bottom: 32%;
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+.systemboard {
+    margin: 25px;
+}
+
+select {
+    width: 100%;
+    padding: .8em .5em;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    border-radius: 0px;
+}
+
+@media screen and (max-width: 740px) {
+    .backboard {
+        width: 100%;
+    }
+
+    .background {
+        padding-bottom: 0;
+    }
+
+    .systemboard {
+        margin-top: 0;
+    }
+}
+
+button {
+    background: #1AAB8A;
+    color: #fff;
+    border: none;
+    position: relative;
+    height: 60px;
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+button:active {
+    background-color: aquamarine;
+}
