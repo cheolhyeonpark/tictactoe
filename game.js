@@ -79,6 +79,7 @@ function checkWinner(play) {
             reset();
         } else {
             if (play == -1) {
+                console.log(turn);
                 computerTurn();
             }
         }
@@ -123,7 +124,7 @@ function level1() {
 
 function level2() {
     if (cnt < 2) {
-        level(1);
+        level1(1);
     }
     else if (map[0][0] == 0 && map[0][1] == map[0][2]) {
         map[0][0] = turn;
